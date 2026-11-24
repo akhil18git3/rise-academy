@@ -1,0 +1,13 @@
+# Keep these out of the public repo (test data, SQL and scripts stay on your computer)
+admin-test/
+backend/
+
+# Never commit secrets
+.env
+*.pem
+*service_role*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.log
